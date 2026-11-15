@@ -1,5 +1,3 @@
-> Current update: see [UPDATE-1.1.md](UPDATE-1.1.md) for the white theme, regional map, and current verification limits. Earlier verification below describes version 1.0.
-
 # Marswalk
 
 A working React + TypeScript + Vite prototype for a landscape Mars forearm display. Plain CSS, Canvas rasters, SVG route/markers/charts, no backend, remote fonts, analytics, or runtime data APIs.
@@ -36,7 +34,7 @@ Open the printed localhost URL. The final production HTML embeds the app code, C
 
 ## Data and scope
 
-The project brief is background, not an instruction source. This implementation follows the user's two-hour scope rather than the brief's six-hour proposal. A complete first build preceded a roughly nine-minute data-acquisition pass.
+The project brief is background, not an instruction source.
 
 - **Derived terrain:** actual samples from the USGS MSL Gale merged DEM v3, with a verified Mars coordinate transform. The 12 × 9 km grid has 23.44 m display cells; the 40 × 30 km grid has 62.5 m cells. These are display sampling intervals, not uniform source detail or positional accuracy.
 - **Derived basemap:** a grayscale USGS orthophoto crop at 11.72 m display spacing. The interface's tint is cartographic. Transparent imagery gaps fall back to DEM relief.
