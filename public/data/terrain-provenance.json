@@ -1,0 +1,75 @@
+{
+  "source": {
+    "url": "https://planetarymaps.usgs.gov/mosaic/Mars/MSL/MSL_Gale_DEM_Mosaic_1m_v3.tif",
+    "catalogue": "https://astrogeology.usgs.gov/search/map/mars_msl_gale_merged_dem_1m",
+    "sourceCRS": "PROJCS[\"Mars_Equirectangular_clon0\",GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_(Sphere)\",SPHEROID[\"Mars_2000_Sphere_IAU_IAG\",3396190,0],AUTHORITY[\"ESRI\",\"106971\"]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",0],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+    "sourceTransform": [
+      1.0,
+      0.0,
+      8127993.492786024,
+      0.0,
+      -1.0,
+      -244781.075189438
+    ],
+    "sourceShape": [
+      57440,
+      32980
+    ],
+    "sourceNodata": -32767.0,
+    "sourceBounds": {
+      "west": 137.12416650612477,
+      "south": -5.098652339315737,
+      "east": 137.6805590543454,
+      "north": -4.1296047962656
+    },
+    "sourcePixelSizeMeters": 1,
+    "method": "Nearest-neighbour source samples at output cell centres; null outside source bounds or where sampled source value is NoData. Not a full-resolution coverage inventory.",
+    "acquiredUTC": "2026-11-15",
+    "authors": "Timothy Parker and Fred J. Calef III; JPL-Caltech / NASA / USGS / University of Arizona",
+    "productVersion": 3
+  },
+  "local": {
+    "width": 512,
+    "height": 384,
+    "bounds": {
+      "west": 137.33995032714952,
+      "east": 137.54344967285047,
+      "south": -4.665567563891097,
+      "north": -4.5134324361089035
+    },
+    "evidence": "derived",
+    "source": "USGS MSL Gale merged DEM v3 (2016), Parker & Calef",
+    "description": "Nearest-sampled USGS merged DEM v3, tied to MOLA. 23.4 m display cells; source detail varies from HiRISE through CTX, HRSC and MOLA. Missing samples are masked.",
+    "resolution": "23.4 m display grid \u00b7 variable source detail \u00b7 not 1 m accuracy",
+    "min": -4550,
+    "max": -4050,
+    "coverage": {
+      "validCells": 196608,
+      "totalCells": 196608,
+      "fraction": 1.0,
+      "displayCellMeters": 23.4375
+    }
+  },
+  "coverage": {
+    "width": 640,
+    "height": 480,
+    "bounds": {
+      "west": 137.1025344238318,
+      "east": 137.7808655761682,
+      "south": -4.843058546303654,
+      "north": -4.335941453696346
+    },
+    "evidence": "derived",
+    "source": "USGS MSL Gale merged DEM v3 (2016), Parker & Calef",
+    "description": "Nearest-sampled USGS merged DEM v3, tied to MOLA. 62.5 m display cells; source detail varies from HiRISE through CTX, HRSC and MOLA. Missing samples are masked.",
+    "resolution": "62.5 m display grid \u00b7 variable source detail \u00b7 not 1 m accuracy",
+    "min": -4630,
+    "max": -470,
+    "coverage": {
+      "validCells": 222466,
+      "totalCells": 307200,
+      "fraction": 0.7241731770833333,
+      "displayCellMeters": 62.5
+    }
+  }
+}

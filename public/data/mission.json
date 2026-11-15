@@ -1,0 +1,61 @@
+{
+  "terrainFile": "terrain-local.json",
+  "coverageFile": "terrain-coverage.json",
+  "sources": [
+    {
+      "title": "USGS MSL Gale Merged DEM v3 \u00b7 Parker & Calef, 2016",
+      "url": "https://astrogeology.usgs.gov/search/map/mars_msl_gale_merged_dem_1m",
+      "note": "Local grids are nearest-neighbour samples from the official 1 m-grid GeoTIFF. Source detail varies: HiRISE, CTX, HRSC, then MOLA. Source bounds verified from the GeoTIFF: 137.124166506\u2013137.680559054\u00b0 E, \u22125.098652339 to \u22124.129604796\u00b0 N. Source NoData is \u221232767. The 12 \u00d7 9 km display grid has 196,608/196,608 valid sampled cells; the 40 \u00d7 30 km coverage view has 222,466/307,200 (72.42%). These counts describe sampled grid cells, not every source pixel or a full 20 km-radius circle. Credit: NASA/JPL-Caltech, USGS, University of Arizona; HRSC from ESA/DLR/FU Berlin."
+    },
+    {
+      "title": "USGS Gale merged orthophoto v3 \u00b7 Calef & Parker, 2016",
+      "url": "https://astrogeology.usgs.gov/search/map/mars_msl_gale_merged_orthophoto_mosaic_25cm",
+      "note": "Bundled grayscale crop at 11.72 m display spacing, nearest-sampled from the official 25 cm-grid mosaic. Raster transform and bounds verified against the DEM coordinate frame. 775,123 of 786,432 sampled cells (98.56%) have imagery; transparent imagery gaps show DEM relief. The displayed green-brown tint is cartographic, not true colour. Coverage view uses DEM relief only. Original source detail and positional accuracy vary. Full processing metadata is in imagery-provenance.json."
+    },
+    {
+      "title": "Curiosity landing reconstruction \u00b7 NASA NTRS, 2013",
+      "url": "https://ntrs.nasa.gov/citations/20130010129",
+      "note": "Display centre: 4.5895\u00b0 S, 137.4417\u00b0 E. The brief's 5.4\u00b0 S, 137.8\u00b0 E centre is outside the merged DEM. Habitat and crew route are fictional, not Curiosity's traverse."
+    },
+    {
+      "title": "Mars surface radiation \u00b7 Hassler et al., Science, 2014",
+      "url": "https://doi.org/10.1126/science.1244797",
+      "note": "Table 1 reports a 2012\u20132013 GCR tissue-like E-detector absorbed dose rate of 0.21 \u00b1 0.04 mGy/day. Marswalk uses 210 \u00b5Gy/Earth day as a uniform illustrative reference, with no personal-dose, altitude, pressure, or shielding model. The observed historical reference is distinguished from its estimated map-wide application."
+    },
+    {
+      "title": "Radiation measurements on Mars \u00b7 NASA/JPL-Caltech/SwRI",
+      "url": "https://science.nasa.gov/resource/radiation-measurements-on-mars/",
+      "note": "NASA's 2013 description gives about 210 micrograys per day for GCR absorbed dose. This is historical context, not today's radiation or a safety threshold."
+    },
+    {
+      "title": "REMS archive \u00b7 NASA PDS Atmospheres Node",
+      "url": "https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/MARS/curiosity/rems.html",
+      "note": "No REMS tables are included. Temperature and pressure are explicitly simulated formulas, spatially uniform. Thermal inertia, ground temperature, season dependence, and elevation correction are not modeled."
+    },
+    {
+      "title": "Marswalk simulation fixtures",
+      "url": "",
+      "note": "Fictional 8.67 km loop, habitat, astronaut, and sol-004 clock. Traverse takes place from 08:00 to 12:00 simulated local time. The manual solar-event alert changes no physical reading. No sourced safety thresholds or route-hazard assessment are provided."
+    },
+    {
+      "title": "NASA JPL Mars Trek \u2014 Viking regional context",
+      "url": "https://trek.nasa.gov/tiles/apidoc/trekAPI.html?body=mars",
+      "note": "Bundled 16 tiles from Viking MDIM 2.1 colorized WMTS level 7, rows 66\u201369, columns 224\u2013227. Bounds read from the published matrix origin and dimensions. NASA/JPL, USGS, NASA Ames, Viking Orbiter. Regional image sampling approximately 325 m; no elevation inferred."
+    },
+    {
+      "title": "Curiosity\u2019s Proposed Path up Mount Sharp",
+      "url": "https://science.nasa.gov/resource/curiositys-proposed-path-up-mount-sharp/",
+      "note": "Reference for map presentation. The displayed astronaut loop is a fictional training route, not this proposed Curiosity route."
+    },
+    {
+      "title": "NASA Worldview",
+      "url": "https://worldview.earthdata.nasa.gov/",
+      "note": "Earth imagery viewer; used as an interaction reference only, not a Mars dataset."
+    },
+    {
+      "title": "Perseverance science and imagery",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science/",
+      "note": "Perseverance explores Jezero Crater. Its raw photographs are not substituted for georeferenced Gale imagery."
+    }
+  ]
+}

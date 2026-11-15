@@ -1,0 +1,25 @@
+{
+  "source": "NASA JPL Mars Trek / USGS Viking MDIM 2.1 colorized mosaic",
+  "url": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7",
+  "capabilities": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/WMTSCapabilities.xml",
+  "bounds": {
+    "west": 135,
+    "east": 140.625,
+    "north": -2.8125,
+    "south": -8.4375
+  },
+  "matrix": 7,
+  "columns": [
+    224,
+    227
+  ],
+  "rows": [
+    66,
+    69
+  ],
+  "width": 1024,
+  "height": 1024,
+  "processing": "Unaltered tile colors stitched into a regional context image. Equirectangular coordinates from WMTS matrix origin -180,90 and matrix size 256 x 128. Display sampling ~325 m at Gale; imagery only, no elevation.",
+  "credit": "NASA/JPL Mars Trek; USGS; NASA Ames; Viking Orbiter",
+  "acquiredUTC": "2026-11-15"
+}

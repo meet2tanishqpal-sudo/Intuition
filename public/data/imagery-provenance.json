@@ -1,0 +1,34 @@
+{
+  "source": "https://asc-pds-services.s3.us-west-2.amazonaws.com/mosaic/MSL_Gale_Orthophoto_Mosaic_25cm_v3.tif",
+  "catalogue": "https://astrogeology.usgs.gov/search/map/mars_msl_gale_merged_orthophoto_mosaic_25cm",
+  "sourceCRS": "PROJCS[\"Mars_Equirectangular_clon0\",GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_(Sphere)\",SPHEROID[\"Mars_2000_Sphere_IAU_IAG\",3396190,0],AUTHORITY[\"ESRI\",\"106971\"]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Equirectangular\"],PARAMETER[\"standard_parallel_1\",0],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+  "sourceTransform": [
+    0.25,
+    0.0,
+    8126248.0,
+    0.0,
+    -0.25,
+    -241164.0
+  ],
+  "sourceBounds": {
+    "west": 137.09471898704908,
+    "south": -5.249524890070563,
+    "east": 137.85389620566426,
+    "north": -4.068582550002498
+  },
+  "sourceNoData": 0.0,
+  "bounds": {
+    "west": 137.33995032714952,
+    "east": 137.54344967285047,
+    "south": -4.665567563891097,
+    "north": -4.5134324361089035
+  },
+  "width": 1024,
+  "height": 768,
+  "displayCellMeters": 11.71875,
+  "processing": "Nearest source pixel at each output cell centre; grayscale unchanged; alpha 0 where source NoData=0. UI tint is cartographic, not true colour.",
+  "validSampledCells": 775123,
+  "totalSampledCells": 786432,
+  "authors": "Fred J. Calef III and Timothy Parker; NASA/JPL-Caltech, USGS, University of Arizona; CTX NASA/JPL/MSSS and HRSC ESA/DLR/FU Berlin",
+  "acquiredUTC": "2026-11-15"
+}
